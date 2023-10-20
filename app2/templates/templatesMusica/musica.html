@@ -15,7 +15,7 @@
 <body class="container mt-5">
 
 
-    <div class="alert alert-info display-1 text-center"><img src="{% static 'imagenes/logo.png' %}" width="100px"
+    <div class="alert alert-info display-1 text-center"><img src="{% static 'imagenes/logomusica.png' %}" width="100px"
             alt=""> Top 4 de Bandas/Cantantes por género musical </div>
             <div class="row">
                 <div class="col"><a href="/pop" class="btn p-3 btn-info w-100">Pop</a></div>
@@ -29,16 +29,44 @@
     <div class="alert alert-dark display-3">{{titulo}}</div>
     
     <div class="row">
-        <div class="col"><a href="#" class="btn p-3 btn-info w-100"><img src="{% static imagen1 %}"
-                    width="100px" alt=""><br>{{musica1}}</a></div>
-        <div class="col"><a href="#" class="btn p-3 btn-success w-100"><img src="{% static imagen2 %}"
-                    width="100px" alt=""><br>{{musica2}}</a></div>
-        <div class="col"><a href="#" class="btn p-3 btn-warning w-100"><img src="{% static imagen3 %}"
-                    width="100px" alt=""><br>{{musica3}}</a></div>
-        <div class="col"><a href="#" class="btn p-3 btn-danger w-100"><img src="{% static imagen4 %}" width="100px"
-                    alt=""><br>{{musica4}}</a></div>
+        <div class="col">
+            <a href="#" class="btn p-3 btn-info w-100">
+                <img src="{% static imagen1 %}"width="100px" alt="">
+                <br>
+                {{musica1}}
+                <br>
+                {{texto1}}
+            </a>
+                </div>
+        <div class="col"><a href="#" class="btn p-3 btn-success w-100">
+            <img src="{% static imagen2 %}"width="100px" alt="">
+            <br>
+            {{musica2}}
+            <br>
+            {{texto2}}
+            </a>
+                </div>
+        <div class="col"><a href="#" class="btn p-3 btn-warning w-100">
+            <img src="{% static imagen3 %}"width="100px" alt="">
+            <br>
+            {{musica3}}
+            <br>
+            {{texto3}}
+        </a>
+                </div>
+        <div class="col"><a href="#" class="btn p-3 btn-danger w-100">
+            <img src="{% static imagen4 %}" width="100px"alt="">
+            <br>
+            {{musica4}}
+            <br>
+            {{texto4}}
+        </a>
+    </div>
     </div>
 
+    <br>
+
+    <a href="/" class="btn p-3 btn-info">Ir a app1</a>
 
 </body>
 

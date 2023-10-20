@@ -11,7 +11,10 @@ def pop(request):
         'musica2':"Miley Cyrus",
         'musica3':"Katy Perry",
         'musica4':"Britney Spears",
-        
+        'texto1' : "1",
+        'texto2' : "2",
+        'texto3' : "3",
+        'texto4' : "4",
         'imagen1':'imagenes/demi.png',
         'imagen2':'imagenes/miley.png',
         'imagen3':'imagenes/katy.png',
@@ -26,7 +29,14 @@ def rock(request):
         'musica2':"The Rolling Stones",
         'musica3':"Black Sabbath",
         'musica4':"Pink Floyd",
-        'imagen1':'imagenes/producto.jpg'
+        'texto1' : "1",
+        'texto2' : "2",
+        'texto3' : "3",
+        'texto4' : "4",
+        'imagen1':'imagenes/queen.png',
+        'imagen2':'imagenes/rolling.png',
+        'imagen3':'imagenes/black.png',
+        'imagen4':'imagenes/pink.png',
     }
     return render(request,'templatesMusica/musica.html',data)
 
@@ -37,6 +47,13 @@ def electro(request):
         'musica2':"Bon Jovi",
         'musica3':"The human league",
         'musica4':"Scorpions",
-        'imagen1':'imagenes/producto.jpg'
+        'texto1' : "1",
+        'texto2' : "2",
+        'texto3' : "3",
+        'texto4' : "4",
+        'imagen1':'imagenes/demi.png',
+        'imagen2':'imagenes/miley.png',
+        'imagen3':'imagenes/katy.png',
+        'imagen4':'imagenes/britney.png',
     }
     return render(request,'templatesMusica/musica.html',data)
