@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 # Create your views here.
-def index(request):
+def musica(request):
     return render(request,'templatesMusica/musica.html')
 
 def pop(request):
